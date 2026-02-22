@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add www.pilarvahey.com/index.html www.pilarvahey.com/ig-images/
+          git add index.html ig-images/
           if git diff --staged --quiet; then
             echo "No changes – Instagram grid is already up to date."
           else
